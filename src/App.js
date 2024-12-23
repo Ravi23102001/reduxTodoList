@@ -1,12 +1,13 @@
+import AddTodoList from './features/TodoList/AddTodoList';
+import TodoList from './features/TodoList/TodoList';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-       hhh
-      </header>
-    </div>
+    <>
+    <AddTodoList/>
+    <TodoList/>
+    </>
   );
 }
 
